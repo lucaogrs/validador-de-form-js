@@ -1,5 +1,5 @@
 <h1>Validador de formulário utilizando Javascript</h1>
-Este validador possue as seguintes funções:
+Este validador possui as seguintes funções:
 <h2>Validador de nomes</h2>
 Impede que o usuário escreva  em "Nome" utilizando menos de 5 caracteres ou colocando números.
 <h2>Validador de email</h2>
