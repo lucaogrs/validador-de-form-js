@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+:root {
+    --background: linear-gradient(to right, #2b2e4a, #1a1c2c);
+    --form-background: rgba(255, 255, 255, 0.1);
+    --text-color: white;
+    --input-background: rgba(255, 255, 255, 0.1);
+    --button-background: linear-gradient(to right, #6a0572, #ab83a1);
+  }
+  
+  body {
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .container {
+    background: var(--form-background);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 400px;
+    height: 90vh;
+  }
+  
+  .glassmorphism-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    color: var(--text-color);
+    font-size: 14px;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: var(--input-background);
+    color: var(--text-color);
+    width: 95%;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--button-background);
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: var(--button-background);
+    filter: brightness(1.2);
+  }
+  
